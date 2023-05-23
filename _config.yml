@@ -217,3 +217,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+
+# Analytics
+analytics:
+  provider               : "google" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-57Z29LXXDV"
+    anonymize_ip         : # true, false (default)
